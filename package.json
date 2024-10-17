@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rs691.github.io/parallax-bun",
+  "homepage": "https://rstewart.me/parallax-bun",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
