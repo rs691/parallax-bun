@@ -85,7 +85,6 @@ h1, h2, h3, h4, h5, p {
 .stickyText h4, 
 .content, 
 p {
-  
   font-size: 100px;
   width: 60%;
   text-align: center;
@@ -116,7 +115,7 @@ p {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 80px) {
   .stickyText h1,
   .stickyText h2,
   .scrollText h1,
@@ -126,6 +125,9 @@ p {
     font-size: 2.5rem;
   }
 }
+
+
+
 
 /* Utilize Bootstrap grid for content alignment */
 .content {
@@ -282,10 +284,26 @@ line-height: 0.83em;
     text-align: left;
   }
 
+
+  .firstPage h1 {
+    font-size: 170px;
+    font-weight: 600;
+    color: black;
+    font-family: "Anybody", sans-serif;
+    font-variation-settings: "wdth" 64.16, "slnt" 0, "wght" 490;
+    line-height: 0.83em;
+    text-align: center;  
+  }
+
+
+
   .stickyText h1, .stickyText h2 {
     margin: 10px;
     text-align: center;
    
 }
   }
-
+  .stickyText h1, .stickyText h2 {
+    margin: 10px;
+    text-align: center;
+  }
